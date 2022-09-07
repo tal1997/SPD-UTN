@@ -1,0 +1,37 @@
+// C++ code
+/*LINK AL SIMULADOR
+https://www.tinkercad.com/things/iry4KPnXPTN
+*/
+#define ROJO 13
+#define AMARILLO 12 
+#define VERDE 11
+
+
+void setup()
+{
+	pinMode (13 , HIGH) ;  //INICIALIZO EL PUERTO 
+	pinMode (12 , HIGH) ;
+	pinMode (11 , HIGH) ;
+}
+void loop(){
+	digitalWrite(13 , HIGH);
+	delay(1000);
+	
+	digitalWrite(12 , HIGH);
+	delay(1200);
+  
+ 	digitalWrite(13 , LOW);
+	delay(500);
+  
+  	digitalWrite(11 , HIGH);
+	delay(1000);
+  
+    digitalWrite(12 , LOW);
+	delay(500);
+  
+    digitalWrite(11 , LOW);
+	delay(500);
+}
+  
+
+
